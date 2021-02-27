@@ -1,0 +1,67 @@
+body, * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  line-height: 3;
+  color: #0076a5;
+}
+
+.add-box {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+input, button {
+  outline: none;
+  border: none;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+.addbtn {
+  width: 10%;
+  background-color: #0076a5;
+  color: #fff;
+  padding: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.errormessage {
+  padding: 10px;
+  background-color: pink;
+  color: #840000;
+  margin: 20px 0;
+}
+
+.deletebtn {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: pink;
+  color: #840000;
+}
